@@ -17,7 +17,7 @@ const Redux = () => {
     <div>
       <h3>Redux Integration Test</h3>
       <button onClick={() => dispatch(increment())}>+</button>
-      <span>{count}</span>
+      <span data-testid="count-value">{count}</span>
       <button onClick={() => dispatch(decrement())}>-</button>
       <button onClick={() => dispatch(incrementByAmount(number | 0))}>Increment By Amount</button>
       <input

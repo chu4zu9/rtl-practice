@@ -3,7 +3,6 @@ import { describe, it, expect } from "@jest/globals";
 import reducer, {
   increment,
   incrementByAmount,
-  decrement,
 } from "./features/customCounter/customCounterSlice";
 
 describe("Reducer of ReduxToolKit", () => {
