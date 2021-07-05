@@ -33,7 +33,7 @@ describe("Redux Async API Mocking", () => {
       },
     });
   });
-  it("[Fetch sucess] Should display username in h3 tag", async () => {
+  it("[Fetch success] Should display username in h3 tag", async () => {
     render(
       <Provider store={store}>
         <ReduxAsync />
